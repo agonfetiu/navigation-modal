@@ -1,0 +1,29 @@
+/* Add application styles & imports to this file! */
+.container {
+  background-color: rgb(211, 211, 211);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+.breadcrumb {
+}
+
+.body {
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.buttons > button {
+  padding: 5px;
+  width: 100px;
+  /* border: 0; */
+  cursor: pointer;
+}
